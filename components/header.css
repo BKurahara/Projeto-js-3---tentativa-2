@@ -1,0 +1,28 @@
+.fixed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.fixed-header > h1 {
+  font-size: 1.5rem;
+}
+
+.fixed-header > ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+}
+.fixed-header > ul > li {
+  padding: 0 1rem;
+}
+
+.header-links {
+  color: var(--color-primary);
+  font-size: 0.8rem;
+}
+.white-words {
+  color: var(--color-terciary);
+}

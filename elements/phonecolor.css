@@ -1,0 +1,33 @@
+.color {
+  width: 2rem;
+  height: 2rem;
+  background-color: blue;
+  border: 4px solid var(--color-secundary);
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px;
+  pointer-events: none;
+}
+
+.selected {
+  outline: 2px solid var(--btn-color);
+}
+
+#green .color {
+  background-color: #394c38;
+}
+
+#silver .color {
+  background-color: #f1f2ed;
+}
+
+#golden .color {
+  background-color: #fae7cf;
+}
+
+#grafite .color {
+  background-color: #54524f;
+}
+
+#blue .color {
+  background-color: #a7c1d9;
+}

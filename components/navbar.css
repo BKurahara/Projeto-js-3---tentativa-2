@@ -1,0 +1,17 @@
+.nav-bar {
+  background-color: var(--color-primary);
+  margin: 0 auto;
+}
+
+.nav-bar > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  font-size: 0.7rem;
+}
+
+.nav-bar > ul > li > a {
+  color: var(--color-secundary);
+}
